@@ -76,7 +76,7 @@ Log "Cutoff: $cutoff (AgeField=$AgeField) Mode=$Mode Recycle=$Recycle WhatIf=$Wh
 $libs = @()
 
 if ($Mode -eq "AllDocumentLibraries") {
-  # BaseTemplate=101 => Document Library
+  # BaseTemplate=101 => Document Library można zmienic na inne ID , jesli chcemy coś innego usuwać
   $libs = Get-PnPList | Where-Object { $_.BaseTemplate -eq 101 -and -not $_.Hidden }
 } else {
   if (-not $IncludeLibraries -or $IncludeLibraries.Count -eq 0) {

@@ -1,0 +1,7 @@
+# Reports
+*.log
+*.csv
+*.json
+!settings.example.json
+scripts/reports/
+.env

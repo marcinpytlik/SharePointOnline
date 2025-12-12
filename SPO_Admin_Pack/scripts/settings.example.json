@@ -1,0 +1,27 @@
+{
+  "TenantAdminUrl": "https://TENANT-admin.sharepoint.com",
+  "TenantName": "TENANT",
+  "ReportsOutputPath": ".\\scripts\\reports",
+  "IncludePersonalSites": false,
+  "PnP": {
+    "AuthMode": "Interactive",
+    "ClientId": "",
+    "TenantId": ""
+  },
+  "Audit": {
+    "Enabled": true,
+    "LookbackDays": 7,
+    "Operations": [
+      "FileDeleted",
+      "FileMoved",
+      "FileRenamed",
+      "SharingSet",
+      "AnonymousLinkCreated",
+      "SecureLinkCreated",
+      "AddedToGroup",
+      "RemovedFromGroup",
+      "SiteCollectionAdminAdded",
+      "SiteCollectionAdminRemoved"
+    ]
+  }
+}

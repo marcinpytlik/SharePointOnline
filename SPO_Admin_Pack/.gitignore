@@ -1,0 +1,8 @@
+# PowerShell / Reports
+*.log
+*.csv
+*.json
+!settings.example.json
+reports/
+scripts/reports/
+.env

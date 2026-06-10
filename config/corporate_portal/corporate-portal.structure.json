@@ -1,0 +1,306 @@
+{
+  "Tenant": {
+    "RootUrl": "https://576gdp.sharepoint.com/",
+    "AdminUrl": "https://576gdp-admin.sharepoint.com/"
+  },
+  "HomeSite": {
+    "Key": "portal-korporacyjny",
+    "Type": "CommunicationSite",
+    "Title": "Portal korporacyjny",
+    "Alias": "portal-korporacyjny",
+    "Url": "https://576gdp.sharepoint.com/sites/portal-korporacyjny",
+    "Description": "Centralny portal korporacyjny: start, globalna nawigacja, komunikacja firmowa i wejście do obszarów organizacji.",
+    "RegisterAsHubSite": true,
+    "SetAsHomeSite": true,
+    "VivaConnectionsDefaultStart": true,
+    "AssociationRightsPrincipals": [],
+    "Libraries": [
+      {
+        "Title": "Dokumenty firmowe",
+        "Template": "DocumentLibrary",
+        "EnableVersioning": true
+      },
+      {
+        "Title": "Polityki firmowe",
+        "Template": "DocumentLibrary",
+        "EnableVersioning": true
+      }
+    ],
+    "Lists": [
+      {
+        "Title": "Ważne linki",
+        "Template": "GenericList"
+      },
+      {
+        "Title": "Kontakty",
+        "Template": "GenericList"
+      },
+      {
+        "Title": "Kalendarz wydarzeń",
+        "Template": "Events"
+      }
+    ]
+  },
+  "Sites": [
+    {
+      "Key": "aktualnosci",
+      "Type": "CommunicationSite",
+      "Title": "Aktualności",
+      "Alias": "aktualnosci",
+      "Url": "https://576gdp.sharepoint.com/sites/aktualnosci",
+      "Description": "Aktualności firmowe, komunikaty zarządu i wiadomości organizacyjne.",
+      "Libraries": [
+        {
+          "Title": "Materiały do aktualności",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        }
+      ],
+      "Lists": [
+        {
+          "Title": "Plan publikacji",
+          "Template": "GenericList"
+        }
+      ]
+    },
+    {
+      "Key": "hr",
+      "Type": "CommunicationSite",
+      "Title": "HR",
+      "Alias": "hr",
+      "Url": "https://576gdp.sharepoint.com/sites/hr",
+      "Description": "Informacje HR, onboarding, benefity, procedury pracownicze i kontakty HR.",
+      "Libraries": [
+        {
+          "Title": "Procedury HR",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        },
+        {
+          "Title": "Dokumenty HR",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        }
+      ],
+      "Lists": [
+        {
+          "Title": "FAQ HR",
+          "Template": "GenericList"
+        },
+        {
+          "Title": "Kontakty HR",
+          "Template": "GenericList"
+        }
+      ]
+    },
+    {
+      "Key": "it",
+      "Type": "CommunicationSite",
+      "Title": "IT",
+      "Alias": "it",
+      "Url": "https://576gdp.sharepoint.com/sites/it",
+      "Description": "Informacje IT, systemy, instrukcje, bezpieczeństwo i zgłoszenia.",
+      "Libraries": [
+        {
+          "Title": "Instrukcje IT",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        },
+        {
+          "Title": "Procedury IT",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        }
+      ],
+      "Lists": [
+        {
+          "Title": "Systemy",
+          "Template": "GenericList"
+        },
+        {
+          "Title": "FAQ IT",
+          "Template": "GenericList"
+        }
+      ]
+    },
+    {
+      "Key": "finanse",
+      "Type": "CommunicationSite",
+      "Title": "Finanse",
+      "Alias": "finanse",
+      "Url": "https://576gdp.sharepoint.com/sites/finanse",
+      "Description": "Informacje finansowe, procedury, dokumenty i kontakty finansowe.",
+      "Libraries": [
+        {
+          "Title": "Procedury finansowe",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        },
+        {
+          "Title": "Dokumenty finansowe",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        }
+      ],
+      "Lists": [
+        {
+          "Title": "FAQ Finanse",
+          "Template": "GenericList"
+        },
+        {
+          "Title": "Kontakty Finanse",
+          "Template": "GenericList"
+        }
+      ]
+    },
+    {
+      "Key": "dokumenty-firmowe",
+      "Type": "CommunicationSite",
+      "Title": "Dokumenty firmowe",
+      "Alias": "dokumenty-firmowe",
+      "Url": "https://576gdp.sharepoint.com/sites/dokumenty-firmowe",
+      "Description": "Centralny katalog dokumentów, polityk, wzorów i procedur firmowych.",
+      "Libraries": [
+        {
+          "Title": "Dokumenty firmowe",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        },
+        {
+          "Title": "Szablony dokumentów",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        }
+      ],
+      "Lists": [
+        {
+          "Title": "Rejestr dokumentów",
+          "Template": "GenericList"
+        }
+      ]
+    },
+    {
+      "Key": "baza-wiedzy",
+      "Type": "CommunicationSite",
+      "Title": "Baza wiedzy",
+      "Alias": "baza-wiedzy",
+      "Url": "https://576gdp.sharepoint.com/sites/baza-wiedzy",
+      "Description": "Artykuły, instrukcje, FAQ i wiedza organizacyjna.",
+      "Libraries": [
+        {
+          "Title": "Materiały wiedzy",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        }
+      ],
+      "Lists": [
+        {
+          "Title": "Artykuły bazy wiedzy",
+          "Template": "GenericList"
+        },
+        {
+          "Title": "FAQ",
+          "Template": "GenericList"
+        }
+      ]
+    },
+    {
+      "Key": "projekty",
+      "Type": "CommunicationSite",
+      "Title": "Projekty",
+      "Alias": "projekty",
+      "Url": "https://576gdp.sharepoint.com/sites/projekty",
+      "Description": "Centralny obszar informacji o projektach, statusach i dokumentacji projektowej.",
+      "Libraries": [
+        {
+          "Title": "Dokumentacja projektowa",
+          "Template": "DocumentLibrary",
+          "EnableVersioning": true
+        }
+      ],
+      "Lists": [
+        {
+          "Title": "Rejestr projektów",
+          "Template": "GenericList"
+        },
+        {
+          "Title": "Statusy projektów",
+          "Template": "GenericList"
+        }
+      ]
+    }
+  ],
+  "Navigation": {
+    "TopNavigation": [
+      {
+        "Title": "Start",
+        "SiteKey": "portal-korporacyjny"
+      },
+      {
+        "Title": "Aktualności",
+        "SiteKey": "aktualnosci"
+      },
+      {
+        "Title": "Firma",
+        "Url": "https://576gdp.sharepoint.com/sites/portal-korporacyjny/SitePages/Firma.aspx"
+      },
+      {
+        "Title": "Działy",
+        "Url": "https://576gdp.sharepoint.com/sites/portal-korporacyjny/SitePages/Dzialy.aspx"
+      },
+      {
+        "Title": "Dokumenty",
+        "SiteKey": "dokumenty-firmowe"
+      },
+      {
+        "Title": "Procesy",
+        "Url": "https://576gdp.sharepoint.com/sites/portal-korporacyjny/SitePages/Procesy.aspx"
+      },
+      {
+        "Title": "Systemy",
+        "Url": "https://576gdp.sharepoint.com/sites/it/Lists/Systemy"
+      },
+      {
+        "Title": "HR",
+        "SiteKey": "hr"
+      },
+      {
+        "Title": "IT",
+        "SiteKey": "it"
+      },
+      {
+        "Title": "Finanse",
+        "SiteKey": "finanse"
+      },
+      {
+        "Title": "Projekty",
+        "SiteKey": "projekty"
+      },
+      {
+        "Title": "Baza wiedzy",
+        "SiteKey": "baza-wiedzy"
+      },
+      {
+        "Title": "Kontakt",
+        "Url": "https://576gdp.sharepoint.com/sites/portal-korporacyjny/Lists/Kontakty"
+      }
+    ]
+  },
+  "PagesToCreateAsPlaceholders": [
+    {
+      "SiteKey": "portal-korporacyjny",
+      "Name": "Firma.aspx",
+      "Title": "Firma"
+    },
+    {
+      "SiteKey": "portal-korporacyjny",
+      "Name": "Dzialy.aspx",
+      "Title": "Działy"
+    },
+    {
+      "SiteKey": "portal-korporacyjny",
+      "Name": "Procesy.aspx",
+      "Title": "Procesy"
+    }
+  ]
+}

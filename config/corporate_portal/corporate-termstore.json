@@ -1,0 +1,125 @@
+{
+  "TermGroup": {
+    "Name": "Corporate Portal",
+    "Description": "Taksonomia portalu korporacyjnego SharePoint Online."
+  },
+  "TermSets": [
+    {
+      "Name": "Departments",
+      "Description": "Działy organizacji.",
+      "Terms": [
+        "HR",
+        "IT",
+        "Finanse",
+        "Księgowość",
+        "Sprzedaż",
+        "Marketing",
+        "Produkcja",
+        "Logistyka",
+        "Administracja"
+      ]
+    },
+    {
+      "Name": "Document Types",
+      "Description": "Typy dokumentów firmowych.",
+      "Terms": [
+        "Polityka",
+        "Procedura",
+        "Instrukcja",
+        "Formularz",
+        "Szablon",
+        "Regulamin",
+        "Raport",
+        "Umowa",
+        "Prezentacja"
+      ]
+    },
+    {
+      "Name": "Business Processes",
+      "Description": "Procesy biznesowe.",
+      "Terms": [
+        "Onboarding",
+        "Zakupy",
+        "Sprzedaż",
+        "Obsługa klienta",
+        "Raportowanie",
+        "Zarządzanie projektami",
+        "Bezpieczeństwo informacji",
+        "Zarządzanie zmianą"
+      ]
+    },
+    {
+      "Name": "Systems",
+      "Description": "Systemy i aplikacje firmowe.",
+      "Terms": [
+        "SharePoint Online",
+        "Microsoft Teams",
+        "Outlook",
+        "ERP",
+        "CRM",
+        "System HR",
+        "Helpdesk",
+        "Power BI"
+      ]
+    },
+    {
+      "Name": "Locations",
+      "Description": "Lokalizacje organizacji.",
+      "Terms": [
+        "Centrala",
+        "Oddział Warszawa",
+        "Oddział Kraków",
+        "Oddział Wrocław",
+        "Praca zdalna"
+      ]
+    },
+    {
+      "Name": "Confidentiality Levels",
+      "Description": "Poziomy poufności informacji.",
+      "Terms": [
+        "Publiczne",
+        "Wewnętrzne",
+        "Poufne",
+        "Ściśle poufne"
+      ]
+    },
+    {
+      "Name": "Document Statuses",
+      "Description": "Statusy cyklu życia dokumentu.",
+      "Terms": [
+        "Roboczy",
+        "Do przeglądu",
+        "Zatwierdzony",
+        "Opublikowany",
+        "Archiwalny"
+      ]
+    },
+    {
+      "Name": "Audiences",
+      "Description": "Grupy odbiorców treści.",
+      "Terms": [
+        "Wszyscy pracownicy",
+        "Kadra zarządzająca",
+        "Nowi pracownicy",
+        "HR",
+        "IT",
+        "Finanse",
+        "Kierownicy projektów"
+      ]
+    },
+    {
+      "Name": "Knowledge Areas",
+      "Description": "Obszary wiedzy w bazie wiedzy.",
+      "Terms": [
+        "Microsoft 365",
+        "Procedury wewnętrzne",
+        "Bezpieczeństwo",
+        "HR",
+        "IT",
+        "Finanse",
+        "Projekty",
+        "Narzędzia firmowe"
+      ]
+    }
+  ]
+}

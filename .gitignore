@@ -11,3 +11,11 @@ config/*.local.json
 
 # PowerShell
 *.ps1xml
+# System / lokalne
+desktop.ini
+.psmodules/
+**/.psmodules/
+
+# Office temp
+~$*.docx
+~$*.xlsx

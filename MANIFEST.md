@@ -1,143 +1,185 @@
-# MANIFEST – SharePointOnline_Organized
+# MANIFEST - SharePointOnline
 
-Wygenerowano: 2026-06-10
+Aktualna zawartość uporządkowanego repo po scaleniu z `Jutro.zip`.
 
-| Plik | Rozmiar bajty |
-|---|---:|
-| `.gitignore` | 164 |
-| `.vscode/tasks.json` | 326 |
-| `archive/legacy_original/SPOAdminPack/README.md` | 5386 |
-| `archive/legacy_original/SPOAdminPack/config/onedrive_urls.txt` | 132 |
-| `archive/legacy_original/SPOAdminPack/config/settings.json` | 218 |
-| `archive/legacy_original/SPOAdminPack/config/sites.txt` | 78 |
-| `archive/legacy_original/SPOAdminPack/docs/README_URUCHOMIENIE.txt` | 855 |
-| `archive/legacy_original/SPOAdminPack/scripts/00_Install-RequiredModules.ps1` | 490 |
-| `archive/legacy_original/SPOAdminPack/scripts/01_Report-TenantSites.ps1` | 880 |
-| `archive/legacy_original/SPOAdminPack/scripts/02_Report-ExternalSharing.ps1` | 903 |
-| `archive/legacy_original/SPOAdminPack/scripts/03_Report-Libraries.ps1` | 1489 |
-| `archive/legacy_original/SPOAdminPack/scripts/04_Report-OldFiles.ps1` | 2334 |
-| `archive/legacy_original/SPOAdminPack/scripts/05_Report-FolderStorage.ps1` | 1734 |
-| `archive/legacy_original/SPOAdminPack/scripts/06_Report-SharingLinksWithoutExpiration.ps1` | 2698 |
-| `archive/legacy_original/SPOAdminPack/scripts/07_Report-LibrariesWithoutVersioning.ps1` | 1474 |
-| `archive/legacy_original/SPOAdminPack/scripts/08_Report-RecycleBin.ps1` | 1384 |
-| `archive/legacy_original/SPOAdminPack/scripts/09_Report-SiteAdmins.ps1` | 1319 |
-| `archive/legacy_original/SPOAdminPack/scripts/10_Report-OneDriveUsageGraph.ps1` | 713 |
-| `archive/legacy_original/SPOAdminPack/scripts/11_Backup-SPO-SiteFiles.ps1` | 4697 |
-| `archive/legacy_original/SPOAdminPack/scripts/12_Backup-OneDrive-Files.ps1` | 3909 |
-| `archive/legacy_original/SPOAdminPack/scripts/13_Report-SPO-OneDrive-Sharing.ps1` | 6919 |
-| `archive/legacy_original/SPO_Admin_Pack/.gitignore` | 96 |
-| `archive/legacy_original/SPO_Admin_Pack/.vscode/tasks.json` | 722 |
-| `archive/legacy_original/SPO_Admin_Pack/README.md` | 1413 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/INDEX.md` | 638 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/SPO_Admin_Module.md` | 9765 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/SharePoint Online #U2013 Best practices tworzenia site#U2019#U00f3w.md` | 4466 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/checklists/01_Baseline_Security.md` | 891 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/checklists/02_Governance_SiteLifecycle.md` | 719 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/checklists/03_Incident_Response_Playbook.md` | 876 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/checklists/04_Offboarding_OneDrive.md` | 414 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/cleanup-spolibrary.ps1` | 2037 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/cleanup-spolibraryv2.ps1` | 5814 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/cleanup-spolibraryv3.ps1` | 5770 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/cleanup.setting.json` | 347 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/labs/Lab01_Governance_Report.md` | 573 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/labs/Lab02_Permissions_Report.md` | 617 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/labs/Lab03_Versioning_Policy.md` | 595 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/labs/Lab04_Audit_WhoDeleted.md` | 531 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/opis_szablon#U00f3w.md` | 6377 |
-| `archive/legacy_original/SPO_Admin_Pack/docs/usuwanie_zawartosci.md` | 2071 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/Connect-PnP.ps1` | 581 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/Connect-SPO.ps1` | 458 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/Get-PnPSitePermissionsReport.ps1` | 3054 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/Get-SPOGovernanceReport.ps1` | 3664 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/Get-UnifiedAuditLog_SharePoint.ps1` | 2291 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/Install-Modules.ps1` | 1086 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/Set-PnPDocumentLibrariesVersioning.ps1` | 1418 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/Set-SPOSiteSharingPolicy.ps1` | 1276 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/helpers/SPOAdmin.Helpers.psm1` | 1157 |
-| `archive/legacy_original/SPO_Admin_Pack/scripts/settings.example.json` | 595 |
-| `archive/legacy_original/Teams_Admin_Pack/.gitignore` | 74 |
-| `archive/legacy_original/Teams_Admin_Pack/.vscode/tasks.json` | 728 |
-| `archive/legacy_original/Teams_Admin_Pack/README.md` | 1188 |
-| `archive/legacy_original/Teams_Admin_Pack/docs/INDEX.md` | 560 |
-| `archive/legacy_original/Teams_Admin_Pack/docs/Teams_Admin_Module.md` | 5758 |
-| `archive/legacy_original/Teams_Admin_Pack/docs/checklists/01_Baseline_Security.md` | 810 |
-| `archive/legacy_original/Teams_Admin_Pack/docs/checklists/02_Governance_TeamsLifecycle.md` | 766 |
-| `archive/legacy_original/Teams_Admin_Pack/docs/checklists/03_Incident_Response_Teams.md` | 748 |
-| `archive/legacy_original/Teams_Admin_Pack/docs/checklists/04_Apps_and_Policies.md` | 509 |
-| `archive/legacy_original/Teams_Admin_Pack/docs/labs/Lab01_Teams_Governance_Report.md` | 410 |
-| `archive/legacy_original/Teams_Admin_Pack/docs/labs/Lab02_Policies_Snapshot.md` | 208 |
-| `archive/legacy_original/Teams_Admin_Pack/docs/labs/Lab03_Audit_Teams.md` | 530 |
-| `archive/legacy_original/Teams_Admin_Pack/scripts/Connect-Teams.ps1` | 269 |
-| `archive/legacy_original/Teams_Admin_Pack/scripts/Get-TeamsGovernanceReport.ps1` | 4604 |
-| `archive/legacy_original/Teams_Admin_Pack/scripts/Get-TeamsPoliciesSnapshot.ps1` | 1456 |
-| `archive/legacy_original/Teams_Admin_Pack/scripts/Get-UnifiedAuditLog_Teams.ps1` | 2036 |
-| `archive/legacy_original/Teams_Admin_Pack/scripts/Install-Modules.ps1` | 637 |
-| `archive/legacy_original/Teams_Admin_Pack/scripts/Set-TeamsMessagingPolicyExample.ps1` | 751 |
-| `archive/legacy_original/Teams_Admin_Pack/scripts/helpers/TeamsAdmin.Helpers.psm1` | 1157 |
-| `archive/legacy_original/Teams_Admin_Pack/scripts/settings.example.json` | 288 |
-| `config/cleanup.settings.example.json` | 347 |
-| `config/onedrive_urls.txt` | 132 |
-| `config/settings.json` | 218 |
-| `config/settings.legacy.example.json` | 595 |
-| `config/sites.txt` | 78 |
-| `config/teams.settings.example.json` | 288 |
-| `docs/checklists/01_Baseline_Security.md` | 891 |
-| `docs/checklists/02_Governance_SiteLifecycle.md` | 719 |
-| `docs/checklists/03_Incident_Response_Playbook.md` | 876 |
-| `docs/checklists/04_Offboarding_OneDrive.md` | 414 |
-| `docs/checklists/Teams_01_Baseline_Security.md` | 810 |
-| `docs/checklists/Teams_02_Governance_TeamsLifecycle.md` | 766 |
-| `docs/checklists/Teams_03_Incident_Response_Teams.md` | 748 |
-| `docs/checklists/Teams_04_Apps_and_Policies.md` | 509 |
-| `docs/howto/README_URUCHOMIENIE.txt` | 855 |
-| `docs/howto/usuwanie_zawartosci.md` | 2071 |
-| `docs/labs/Lab01_Governance_Report.md` | 573 |
-| `docs/labs/Lab02_Permissions_Report.md` | 617 |
-| `docs/labs/Lab03_Versioning_Policy.md` | 595 |
-| `docs/labs/Lab04_Audit_WhoDeleted.md` | 531 |
-| `docs/labs/Teams_Lab01_Teams_Governance_Report.md` | 410 |
-| `docs/labs/Teams_Lab02_Policies_Snapshot.md` | 208 |
-| `docs/labs/Teams_Lab03_Audit_Teams.md` | 530 |
-| `docs/legacy-notes/SPO_OLD_INDEX.md` | 638 |
-| `docs/legacy-notes/SharePoint_Online_Best_practices_tworzenia_siteow.md` | 4466 |
-| `docs/legacy-notes/TEAMS_OLD_INDEX.md` | 560 |
-| `docs/legacy-notes/opis_szablonow.md` | 6377 |
-| `docs/modules/SPO_Admin_Module.md` | 9765 |
-| `docs/modules/Teams_Admin_Module_optional.md` | 5758 |
-| `output/.gitkeep` | 0 |
-| `scripts/00_setup/00_Install-AllRequiredModules.ps1` | 600 |
-| `scripts/00_setup/00_Install-RequiredModules.ps1` | 490 |
-| `scripts/00_setup/01_Install-LegacyModules.ps1` | 1086 |
-| `scripts/00_setup/10_Connect-PnP.ps1` | 581 |
-| `scripts/00_setup/11_Connect-SPO.ps1` | 458 |
-| `scripts/01_inventory/01_Report-TenantSites.ps1` | 880 |
-| `scripts/01_inventory/03_Report-Libraries.ps1` | 1489 |
-| `scripts/01_inventory/05_Report-FolderStorage.ps1` | 1734 |
-| `scripts/01_inventory/08_Report-RecycleBin.ps1` | 1384 |
-| `scripts/01_inventory/09_Report-SiteAdmins.ps1` | 1319 |
-| `scripts/01_inventory/10_Report-OneDriveUsageGraph.ps1` | 713 |
-| `scripts/01_inventory/20_Get-SPOGovernanceReport_Legacy.ps1` | 3664 |
-| `scripts/02_security_sharing/02_Report-ExternalSharing.ps1` | 903 |
-| `scripts/02_security_sharing/06_Report-SharingLinksWithoutExpiration.ps1` | 2698 |
-| `scripts/02_security_sharing/13_Report-SPO-OneDrive-Sharing.ps1` | 6919 |
-| `scripts/02_security_sharing/20_Set-SPOSiteSharingPolicy.ps1` | 1276 |
-| `scripts/03_permissions_audit/01_Get-PnPSitePermissionsReport.ps1` | 3054 |
-| `scripts/03_permissions_audit/02_Get-UnifiedAuditLog_SharePoint.ps1` | 2291 |
-| `scripts/04_backup_export/01_Backup-SPO-SiteFiles.ps1` | 4697 |
-| `scripts/04_backup_export/02_Backup-OneDrive-Files.ps1` | 3909 |
-| `scripts/05_storage_cleanup/01_Report-OldFiles.ps1` | 2334 |
-| `scripts/05_storage_cleanup/02_Cleanup-SpoLibraries.ps1` | 5951 |
-| `scripts/05_storage_cleanup/10_Cleanup-SpoLibraries_Legacy_v3.ps1` | 5770 |
-| `scripts/05_storage_cleanup/archive/Cleanup-SpoLibraries_v1.ps1` | 2037 |
-| `scripts/05_storage_cleanup/archive/Cleanup-SpoLibraries_v2.ps1` | 5814 |
-| `scripts/06_governance/01_Report-LibrariesWithoutVersioning.ps1` | 1474 |
-| `scripts/06_governance/02_Set-PnPDocumentLibrariesVersioning.ps1` | 1418 |
-| `scripts/07_teams_optional/Connect-Teams.ps1` | 269 |
-| `scripts/07_teams_optional/Get-TeamsGovernanceReport.ps1` | 4604 |
-| `scripts/07_teams_optional/Get-TeamsPoliciesSnapshot.ps1` | 1456 |
-| `scripts/07_teams_optional/Get-UnifiedAuditLog_Teams.ps1` | 2036 |
-| `scripts/07_teams_optional/Install-Modules.ps1` | 637 |
-| `scripts/07_teams_optional/Set-TeamsMessagingPolicyExample.ps1` | 751 |
-| `scripts/07_teams_optional/helpers/TeamsAdmin.Helpers.psm1` | 1157 |
-| `scripts/07_teams_optional/settings.example.json` | 288 |
-| `scripts/helpers/SPOAdmin.Helpers.psm1` | 1157 |
+## Ważne decyzje porządkowe
+
+- Repo ma jeden katalog główny `SharePointOnline`.
+- Nie przenoszono zagnieżdżonych repozytoriów `.git` z paczek źródłowych.
+- Nie przenoszono lokalnej paczki modułów `.psmodules/PnP.PowerShell`, żeby nie zaśmiecać repo binariami.
+- Pliki `desktop.ini` zostały pominięte.
+- Materiały kursowe trafiły do `docs/training/55215_automation_edition`.
+- Skrypty portalu korporacyjnego trafiły do `scripts/08_corporate_portal_deployment`.
+
+## Lista plików
+
+- `.gitignore`
+- `.vscode/settings.json`
+- `.vscode/tasks.json`
+- `MANIFEST.md`
+- `README.md`
+- `archive/legacy_original/SPOAdminPack/README.md`
+- `archive/legacy_original/SPOAdminPack/config/onedrive_urls.txt`
+- `archive/legacy_original/SPOAdminPack/config/settings.json`
+- `archive/legacy_original/SPOAdminPack/config/sites.txt`
+- `archive/legacy_original/SPOAdminPack/docs/README_URUCHOMIENIE.txt`
+- `archive/legacy_original/SPOAdminPack/scripts/00_Install-RequiredModules.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/01_Report-TenantSites.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/02_Report-ExternalSharing.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/03_Report-Libraries.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/04_Report-OldFiles.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/05_Report-FolderStorage.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/06_Report-SharingLinksWithoutExpiration.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/07_Report-LibrariesWithoutVersioning.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/08_Report-RecycleBin.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/09_Report-SiteAdmins.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/10_Report-OneDriveUsageGraph.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/11_Backup-SPO-SiteFiles.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/12_Backup-OneDrive-Files.ps1`
+- `archive/legacy_original/SPOAdminPack/scripts/13_Report-SPO-OneDrive-Sharing.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/.gitignore`
+- `archive/legacy_original/SPO_Admin_Pack/.vscode/tasks.json`
+- `archive/legacy_original/SPO_Admin_Pack/README.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/INDEX.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/SPO_Admin_Module.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/SharePoint Online #U2013 Best practices tworzenia site#U2019#U00f3w.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/checklists/01_Baseline_Security.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/checklists/02_Governance_SiteLifecycle.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/checklists/03_Incident_Response_Playbook.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/checklists/04_Offboarding_OneDrive.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/cleanup-spolibrary.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/docs/cleanup-spolibraryv2.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/docs/cleanup-spolibraryv3.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/docs/cleanup.setting.json`
+- `archive/legacy_original/SPO_Admin_Pack/docs/labs/Lab01_Governance_Report.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/labs/Lab02_Permissions_Report.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/labs/Lab03_Versioning_Policy.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/labs/Lab04_Audit_WhoDeleted.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/opis_szablon#U00f3w.md`
+- `archive/legacy_original/SPO_Admin_Pack/docs/usuwanie_zawartosci.md`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/Connect-PnP.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/Connect-SPO.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/Get-PnPSitePermissionsReport.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/Get-SPOGovernanceReport.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/Get-UnifiedAuditLog_SharePoint.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/Install-Modules.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/Set-PnPDocumentLibrariesVersioning.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/Set-SPOSiteSharingPolicy.ps1`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/helpers/SPOAdmin.Helpers.psm1`
+- `archive/legacy_original/SPO_Admin_Pack/scripts/settings.example.json`
+- `archive/legacy_original/Teams_Admin_Pack/.gitignore`
+- `archive/legacy_original/Teams_Admin_Pack/.vscode/tasks.json`
+- `archive/legacy_original/Teams_Admin_Pack/README.md`
+- `archive/legacy_original/Teams_Admin_Pack/docs/INDEX.md`
+- `archive/legacy_original/Teams_Admin_Pack/docs/Teams_Admin_Module.md`
+- `archive/legacy_original/Teams_Admin_Pack/docs/checklists/01_Baseline_Security.md`
+- `archive/legacy_original/Teams_Admin_Pack/docs/checklists/02_Governance_TeamsLifecycle.md`
+- `archive/legacy_original/Teams_Admin_Pack/docs/checklists/03_Incident_Response_Teams.md`
+- `archive/legacy_original/Teams_Admin_Pack/docs/checklists/04_Apps_and_Policies.md`
+- `archive/legacy_original/Teams_Admin_Pack/docs/labs/Lab01_Teams_Governance_Report.md`
+- `archive/legacy_original/Teams_Admin_Pack/docs/labs/Lab02_Policies_Snapshot.md`
+- `archive/legacy_original/Teams_Admin_Pack/docs/labs/Lab03_Audit_Teams.md`
+- `archive/legacy_original/Teams_Admin_Pack/scripts/Connect-Teams.ps1`
+- `archive/legacy_original/Teams_Admin_Pack/scripts/Get-TeamsGovernanceReport.ps1`
+- `archive/legacy_original/Teams_Admin_Pack/scripts/Get-TeamsPoliciesSnapshot.ps1`
+- `archive/legacy_original/Teams_Admin_Pack/scripts/Get-UnifiedAuditLog_Teams.ps1`
+- `archive/legacy_original/Teams_Admin_Pack/scripts/Install-Modules.ps1`
+- `archive/legacy_original/Teams_Admin_Pack/scripts/Set-TeamsMessagingPolicyExample.ps1`
+- `archive/legacy_original/Teams_Admin_Pack/scripts/helpers/TeamsAdmin.Helpers.psm1`
+- `archive/legacy_original/Teams_Admin_Pack/scripts/settings.example.json`
+- `archive/legacy_original/sharepoint_corporate_portal_deployment_vscode_settings.json`
+- `config/cleanup.settings.example.json`
+- `config/corporate_portal/corporate-portal.structure.json`
+- `config/corporate_portal/corporate-termstore.json`
+- `config/onedrive_urls.txt`
+- `config/settings.json`
+- `config/settings.legacy.example.json`
+- `config/sites.txt`
+- `config/teams.settings.example.json`
+- `docs/checklists/01_Baseline_Security.md`
+- `docs/checklists/02_Governance_SiteLifecycle.md`
+- `docs/checklists/03_Incident_Response_Playbook.md`
+- `docs/checklists/04_Offboarding_OneDrive.md`
+- `docs/checklists/Checklista_Hub_Site_SharePoint_Online.md`
+- `docs/checklists/Checklista_mapa_witryn_i_nawigacja_przed_Hub_Site.md`
+- `docs/checklists/Checklista_tworzenia_witryny_SharePoint_Online.md`
+- `docs/checklists/SharePoint_Online_Managed_Metadata_i_menu_portalu_korporacyjnego.md`
+- `docs/checklists/Teams_01_Baseline_Security.md`
+- `docs/checklists/Teams_02_Governance_TeamsLifecycle.md`
+- `docs/checklists/Teams_03_Incident_Response_Teams.md`
+- `docs/checklists/Teams_04_Apps_and_Policies.md`
+- `docs/howto/00_REPO_UPORZADKOWANE.md`
+- `docs/howto/README_URUCHOMIENIE.txt`
+- `docs/howto/usuwanie_zawartosci.md`
+- `docs/labs/Lab01_Governance_Report.md`
+- `docs/labs/Lab02_Permissions_Report.md`
+- `docs/labs/Lab03_Versioning_Policy.md`
+- `docs/labs/Lab04_Audit_WhoDeleted.md`
+- `docs/labs/Teams_Lab01_Teams_Governance_Report.md`
+- `docs/labs/Teams_Lab02_Policies_Snapshot.md`
+- `docs/labs/Teams_Lab03_Audit_Teams.md`
+- `docs/legacy-notes/SPO_OLD_INDEX.md`
+- `docs/legacy-notes/SharePoint_Online_Best_practices_tworzenia_siteow.md`
+- `docs/legacy-notes/TEAMS_OLD_INDEX.md`
+- `docs/legacy-notes/opis_szablonow.md`
+- `docs/modules/SPO_Admin_Module.md`
+- `docs/modules/Teams_Admin_Module_optional.md`
+- `docs/modules/corporate_portal_deployment/Notatki_wdrozeniowe.md`
+- `docs/modules/corporate_portal_deployment/README.md`
+- `docs/training/55215_automation_edition/01_55215_Automation_Edition_Agenda.md`
+- `docs/training/55215_automation_edition/02_Lab_Environment_Setup.md`
+- `docs/training/55215_automation_edition/03_SharePoint_Lists_Labs.md`
+- `docs/training/55215_automation_edition/04_SharePoint_Document_Libraries_Labs.md`
+- `docs/training/55215_automation_edition/05_Power_Automate_Basics_Labs.md`
+- `docs/training/55215_automation_edition/06_Power_Automate_Approvals_Labs.md`
+- `docs/training/55215_automation_edition/07_Final_Project_Purchase_Request_Process.md`
+- `docs/training/55215_automation_edition/08_Power_Automate_Troubleshooting_Checklist.md`
+- `docs/training/55215_automation_edition/09_Power_Automate_Governance_Checklist.md`
+- `docs/training/55215_automation_edition/10_Trainer_Notes.md`
+- `docs/training/55215_automation_edition/README_55215_Automation_Edition.md`
+- `docs/training/55215_automation_edition/materials_docx/MS55215_SharePoint_Online_Power_User_podrecznik_cwiczeniowy.docx`
+- `docs/training/55215_automation_edition/materials_docx/SharePoint_Online_checklista_witryna_biblioteka_lista.docx`
+- `docs/training/55215_automation_edition/materials_docx/SharePoint_Online_checklisty_1_projektowe.docx`
+- `docs/training/55215_automation_edition/materials_docx/SharePoint_Online_checklisty_2_bezpieczenstwo_governance.docx`
+- `docs/training/55215_automation_edition/materials_docx/SharePoint_Online_checklisty_3_praca_power_usera.docx`
+- `docs/training/55215_automation_edition/materials_docx/SharePoint_Online_dla_administratorow_podrecznik_cwiczeniowy.docx`
+- `output/.gitkeep`
+- `scripts/00_setup/00_Install-AllRequiredModules.ps1`
+- `scripts/00_setup/00_Install-RequiredModules.ps1`
+- `scripts/00_setup/01_Install-LegacyModules.ps1`
+- `scripts/00_setup/10_Connect-PnP.ps1`
+- `scripts/00_setup/11_Connect-SPO.ps1`
+- `scripts/01_inventory/01_Report-TenantSites.ps1`
+- `scripts/01_inventory/03_Report-Libraries.ps1`
+- `scripts/01_inventory/05_Report-FolderStorage.ps1`
+- `scripts/01_inventory/08_Report-RecycleBin.ps1`
+- `scripts/01_inventory/09_Report-SiteAdmins.ps1`
+- `scripts/01_inventory/10_Report-OneDriveUsageGraph.ps1`
+- `scripts/01_inventory/20_Get-SPOGovernanceReport_Legacy.ps1`
+- `scripts/02_security_sharing/02_Report-ExternalSharing.ps1`
+- `scripts/02_security_sharing/06_Report-SharingLinksWithoutExpiration.ps1`
+- `scripts/02_security_sharing/13_Report-SPO-OneDrive-Sharing.ps1`
+- `scripts/02_security_sharing/20_Set-SPOSiteSharingPolicy.ps1`
+- `scripts/03_permissions_audit/01_Get-PnPSitePermissionsReport.ps1`
+- `scripts/03_permissions_audit/02_Get-UnifiedAuditLog_SharePoint.ps1`
+- `scripts/04_backup_export/01_Backup-SPO-SiteFiles.ps1`
+- `scripts/04_backup_export/02_Backup-OneDrive-Files.ps1`
+- `scripts/05_storage_cleanup/01_Report-OldFiles.ps1`
+- `scripts/05_storage_cleanup/02_Cleanup-SpoLibraries.ps1`
+- `scripts/05_storage_cleanup/10_Cleanup-SpoLibraries_Legacy_v3.ps1`
+- `scripts/05_storage_cleanup/archive/Cleanup-SpoLibraries_v1.ps1`
+- `scripts/05_storage_cleanup/archive/Cleanup-SpoLibraries_v2.ps1`
+- `scripts/06_governance/01_Report-LibrariesWithoutVersioning.ps1`
+- `scripts/06_governance/02_Set-PnPDocumentLibrariesVersioning.ps1`
+- `scripts/07_teams_optional/Connect-Teams.ps1`
+- `scripts/07_teams_optional/Get-TeamsGovernanceReport.ps1`
+- `scripts/07_teams_optional/Get-TeamsPoliciesSnapshot.ps1`
+- `scripts/07_teams_optional/Get-UnifiedAuditLog_Teams.ps1`
+- `scripts/07_teams_optional/Install-Modules.ps1`
+- `scripts/07_teams_optional/Set-TeamsMessagingPolicyExample.ps1`
+- `scripts/07_teams_optional/helpers/TeamsAdmin.Helpers.psm1`
+- `scripts/07_teams_optional/settings.example.json`
+- `scripts/08_corporate_portal_deployment/Deploy-CorporatePortal.ps1`
+- `scripts/08_corporate_portal_deployment/Deploy-CorporateTermStore.ps1`
+- `scripts/08_corporate_portal_deployment/preparing.ps1`
+- `scripts/helpers/SPOAdmin.Helpers.psm1`

@@ -1,0 +1,12 @@
+{
+    "SiteURL": "https://TENANT.sharepoint.com/sites/TEMP",
+    "Mode": "AllDocumentLibraries",
+    "IncludeLibraries": [],
+    "ExcludeLibraries": ["Style Library","Form Templates","Site Assets","Site Pages"],
+    "Days": 30,
+    "Recycle": true,
+    "WhatIf": true,
+    "OutputPath": ".\\reports",
+    "AgeField": "Modified"
+    
+}

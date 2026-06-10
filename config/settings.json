@@ -1,0 +1,10 @@
+{
+  "TenantAdminUrl": "https://tenant-admin.sharepoint.com",
+  "OutputRoot": "D:\\M365Reports",
+  "DefaultLibraries": [
+    "Documents",
+    "Shared Documents"
+  ],
+  "OldFilesOlderThanMonths": 12,
+  "PageSize": 500
+}

@@ -1,0 +1,13 @@
+# Outputy i lokalne dane
+output/
+reports/
+*.log
+*.csv
+*.zip
+
+# Sekrety / lokalne konfiguracje
+config/settings.local.json
+config/*.local.json
+
+# PowerShell
+*.ps1xml

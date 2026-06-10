@@ -1,0 +1,14 @@
+{
+  "ReportsOutputPath": ".\\scripts\\reports",
+  "Teams": {
+    "NumberOfThreads": 20,
+    "IncludeArchived": true
+  },
+  "Audit": {
+    "Enabled": false,
+    "LookbackDays": 7,
+    "RecordType": "MicrosoftTeams",
+    "UseReturnLargeSet": false,
+    "SessionId": "TeamsAuditSearch"
+  }
+}
